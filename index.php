@@ -33,7 +33,7 @@
              <div class="col-12 user-img">
                     <img src="img/user_image.jpg"/>
                 </div>
-                <form class="col-12" method="post">
+                <form class="col-12" method="post" action="ingresar.php">
                     <div class="form-group" id="user-group">
                         <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
                     </div>
@@ -42,12 +42,12 @@
                     </div>
                     <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
                 </form>
-                <div class="alert alert-danger" role="alert">
+                <!--<div class="alert alert-danger" role="alert">
 		            Usuario o contraseña inválidos
 		        </div>
 		        <div class="alert alert-success" role="alert">
 		            Vuelve pronto! 
-		        </div>
+		        </div>-->
             </div>
         </div>
     </div>
