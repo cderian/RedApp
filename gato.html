@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset='utf-8'/>
+      <title>Juego de Gato</title>
+      <script type="text/javascript" src="js/script.js"></script>
+      <link rel="icon" href="images/gato.ico">
+      <link rel="stylesheet" href="css/gatostyle.css" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   </head>
+
+   <body>
+   	<center>
+         <table cellpadding="5">
+            <tr>
+               <td><h3 class="text-light" id="turno">Es turno del jugador 1</h3></td>
+               <td><img id="simbolo" src="img/circle.svg" alt="círculo"></td>
+            </tr>
+         </table>
+
+         <div id="container">
+         	<div id="casilla1" onclick="marcarTiro('casilla1')"></div>
+            <div id="casilla2" onclick="marcarTiro('casilla2')"></div>
+            <div id="casilla3" onclick="marcarTiro('casilla3')"></div>
+            <div id="casilla4" onclick="marcarTiro('casilla4')"></div>
+            <div id="casilla5" onclick="marcarTiro('casilla5')"></div>
+            <div id="casilla6" onclick="marcarTiro('casilla6')"></div>
+            <div id="casilla7" onclick="marcarTiro('casilla7')"></div>
+            <div id="casilla8" onclick="marcarTiro('casilla8')"></div>
+            <div id="casilla9" onclick="marcarTiro('casilla9')"></div>
+            <div id="resultado">Resultado</div>
+         </div>
+         <table cellpadding="5">
+            <tr>
+               <td><input type="button" class="btn btn-light" value="Cerrar Sesión" onClick="history.go(-1);"></td>
+            </tr>
+         </table>
+     </center>
+   </body>
+</html>
